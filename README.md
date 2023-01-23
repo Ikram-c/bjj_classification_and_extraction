@@ -32,13 +32,14 @@ For assessing the accuracy of the models the following metrics were used (***Skl
 
 The first name and Last name is scraped from the fighter list table (https://www.bjjheroes.com/a-z-bjj-fighters-list) along with the hyperlink to the fighter’s page which is stored in a dictionary. 
 
-![alt text](https://github.com/[Ikram-c]/[bjj_classification_and_extraction]/blob/[main]/sample of the initial bjj heroes website.jpg?raw=true)
+![sample of the initial bjj heroes website](https://user-images.githubusercontent.com/68299933/214124365-518d3248-4352-499b-8fc1-206e84e5c165.jpg)
 
 Sample of fighter list table
 
 A user input is given which asks for the fighter name and then uses a function to see if the fighter exists in the previously defined dictionary and then selenium goes into the fighter page to scrape the fight history database. The function returns whether the fighter search was successful and whether the scraped fight history database as a Pandas DataFrame, the generated database is also stored locally as a CSV. 
 
-![alt text](https://github.com/[Ikram-c]/[bjj_classification_and_extraction]/blob/[main]/Fight history sample image.jpg?raw=true)
+![Fight history sample image](https://user-images.githubusercontent.com/68299933/214124410-98832400-23ed-466a-b826-11c450dd7ccb.jpg)
+
 
 Sample of fight history
 
