@@ -33,11 +33,13 @@ For assessing the accuracy of the models the following metrics were used (***Skl
 The first name and Last name is scraped from the fighter list table (https://www.bjjheroes.com/a-z-bjj-fighters-list) along with the hyperlink to the fighter’s page which is stored in a dictionary. 
 
 ![alt text](https://github.com/[Ikram-c]/[bjj_classification_and_extraction]/blob/[main]/sample of the initial bjj heroes website.jpg?raw=true)
+
 Sample of fighter list table
 
 A user input is given which asks for the fighter name and then uses a function to see if the fighter exists in the previously defined dictionary and then selenium goes into the fighter page to scrape the fight history database. The function returns whether the fighter search was successful and whether the scraped fight history database as a Pandas DataFrame, the generated database is also stored locally as a CSV. 
 
 ![alt text](https://github.com/[Ikram-c]/[bjj_classification_and_extraction]/blob/[main]/Fight history sample image.jpg?raw=true)
+
 Sample of fight history
 
 A user input is then given to run a basic data cleaner function which takes the csv created and drops nulls, for the sake of simplicity, all matches resulting in draws are also removed and common string errors found in the scraped data frame such as an incorrect weight are also modified. A user input is then given to save the cleaned data frame as a CSV which if selected yes, will run a function to save the cleaned copy.
