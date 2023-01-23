@@ -1,1 +1,8 @@
-# bjj_classification_and_extraction
+# Bjj classification and Extraction (Sports data analysis)
+
+
+## Overview of project
+
+
+
+
