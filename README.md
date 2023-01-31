@@ -3,28 +3,20 @@
 
 ## Overview of project
 
-The aim of the project was to generate an automated system to analyze Brazilian Jiu-Jitsu (Bjj) data and make predictions about a player’s performance using supervised classification models. Data was scraped from a reputable source for Bjj (https://www.bjjheroes.com) which contains an online database of competitors and their competition performance. The notebook was designed to be used by someone who has very little/ no understanding of coding which is why a series of user inputs are given. If work on this project is continued it would be used to generate a GUI which can then be used as a computer program and eventually a mobile app.
+The aim of the project was to generate an automated system to analyze Brazilian Jiu-Jitsu (Bjj) data and make predictions about a player’s performance using supervised classification models. Data was ***webscraped*** from a reputable source for Bjj (https://www.bjjheroes.com) which contains an online database of competitors and their competition performance. The notebook was designed to be used by someone who has very little/ no understanding of coding which is why a series of user inputs are given. If work on this project is continued it would be used to generate a GUI which can then be used as a computer program and eventually a mobile app.
 
-## Libraries used
 
 For the web scraping ***Selenium*** and ***bs4*** was used.
 For Data frame creation and manipulation ***pandas*** and ***numpy*** were used.
 The following ML models were used for classification (***Sklearn***):
-
--***Logistic Regression***
-
--***Support Vector Machine***
-
--***Random Forest Classifier***
-
--***KNN***
-
--***Naive bayes***
-
--***Decision Tree Classifier***
+- ***Logistic Regression***
+- ***Support Vector Machine***
+- ***Random Forest Classifier***
+- ***KNN***
+- ***Naive bayes***
+- ***Decision Tree Classifier***
 
 For assessing the accuracy of the models the following metrics were used (***Sklearn***):
-
 -confusion matrix
 - f1 score
 
