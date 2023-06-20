@@ -20,7 +20,7 @@ For assessing the accuracy of the models the following metrics were used (***Skl
 -confusion matrix
 - f1 score
 
-## How to notebook works:
+## How the notebook works:
 
 The first name and Last name is scraped from the fighter list table (https://www.bjjheroes.com/a-z-bjj-fighters-list) along with the hyperlink to the fighter’s page which is stored in a dictionary. 
 
